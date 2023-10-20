@@ -2496,9 +2496,23 @@ border-bottom:1px dotted #ccc;
 
 /*----- Google maps -----*/
 #map {
-    height:450px;
+    height:250px;
     width:100%;
 }
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:300px;
+    width:100%;
+    position:absolute;
+  }
 
 /*----- Video Popup Section -----*/
 #video-section {
