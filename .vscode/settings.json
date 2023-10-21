@@ -1,5 +1,9 @@
 {
     "conventionalCommits.scopes": [
-        "template"
-    ]
+        "template",
+        "home-page-about",
+        "image",
+        "team-members"
+    ],
+    "liveServer.settings.port": 5501
 }
